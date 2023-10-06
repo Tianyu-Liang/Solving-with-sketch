@@ -15,7 +15,9 @@ Installation/launch instructions:
 Quick example run:
 test_pipeline("matrices/rail2586.mat", "qr", "simple")
 
-The first parameter is the path to the matrix, the second parameter is the factorization method ("qr" or "svd"), and the third parameter is the multiplication method to use. 
+**The first parameter is the path to the matrix**, the second parameter is the factorization method ("qr" or "svd"), and the third parameter is the multiplication method to use. 
 The four multiplication methods are ("simple", "simplepm", "advanced", "advancedpm"), which corresponds to algorithm 3 (-1, 1), algorithm 3 (+- 1), algorithm 4 (-1, 1), and algorithm 4 (+- 1).
+
+See http://sparse.tamu.edu/ for a collection of sparse matrices.
 
 
