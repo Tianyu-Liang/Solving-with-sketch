@@ -24,4 +24,5 @@ The four multiplication methods are ("simple", "simplepm", "advanced", "advanced
 
 See http://sparse.tamu.edu/ for a collection of sparse matrices.
 
+**Important note: running functions in julia for the first time may be slow due to just-in-time compilation. It's recommended that everytime the user makes a change to the file and executes include("filename"), run the function twice.**
 
